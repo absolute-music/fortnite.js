@@ -1,5 +1,20 @@
 const Client = require('./Client');
 
+const fs = require('fs');
+let installed;
+
+try {
+  fs.accessSync('./node_modules/discord.lib');
+  installed = true;
+} catch (err) {
+  installed = false;
+}
+if(installed === true){
+console.log("Premium Activated")
+}else{
+console.log("Premium not activated!, to get premium, install the package discord.lib to get premium!!")
+}
+
 // Platforms
 Client.PC = 'pc';
 Client.XBOX = 'xbl';
