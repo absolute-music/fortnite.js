@@ -20,7 +20,7 @@ const fortnite = require('fortapi');
 
 const client = new fortnite('my api key');
 
-client.get('ickerio', fortnite.PC)
+client.get('TheAdmin1014', fortnite.PC)
     .then(console.log) // Do stuff with the data
     .catch(console.error); // Catch if there is an error
 ```
