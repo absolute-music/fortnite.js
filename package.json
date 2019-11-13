@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ickerio/fortnite.js.git"
+    "url": "git+https://github.com/absolute-music/fortapi.git"
   },
   "keywords": [
     "fortnite",
@@ -22,11 +22,11 @@
     "wrapper"
   ],
   "bugs": {
-    "url": "https://github.com/ickerio/fortnite.js/issues"
+    "url": "https://github.com/absolute-music/fortapi/issues"
   },
   "runkitExampleFilename": "example.js",
-  "homepage": "https://github.com/ickerio/fortnite.js#readme",
-  "author": "ickerio",
+  "homepage": "https://github.com/absolute-music/fortapi#readme",
+  "author": "Jerry",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.0",
