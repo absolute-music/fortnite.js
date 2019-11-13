@@ -29,7 +29,8 @@
   "author": "ickerio",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "fs": "0.0.1-security"
   },
   "devDependencies": {
     "dotenv": "^6.2.0",
